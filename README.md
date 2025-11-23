@@ -44,16 +44,18 @@ npm start
 The backend should now run on:
 
 http://localhost:4000
+### Backend Endpoints
 
-Backend Endpoints
-Method	Endpoint	Description
-GET	/products	Get all products
-GET	/products/:id	Get single product by ID
-POST	/products	Add new product
-PUT	/products/:id	Update product
-DELETE	/products/:id	Delete product
-GET	/products/:id/history	Get inventory change history
-GET	/products/categories	Get product categories
+| Method | Endpoint                  | Description                     |
+|--------|---------------------------|---------------------------------|
+| GET    | /products                 | Get all products                |
+| GET    | /products/:id             | Get single product by ID        |
+| POST   | /products                 | Add new product                 |
+| PUT    | /products/:id             | Update product                  |
+| DELETE | /products/:id             | Delete product                  |
+| GET    | /products/:id/history     | Get inventory change history    |
+| GET    | /products/categories      | Get product categories          |
+
 
 ### Frontend Setup
 1. Clone frontend repository
@@ -80,7 +82,7 @@ http://localhost:3000
 
 Frontend: https://your-frontend-live-url.com
 
-Backend: https://your-backend-live-url.com
+Backend: https://inventory-system-mxmq.onrender.com
 
 
 ### Usage

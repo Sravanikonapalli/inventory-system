@@ -28,7 +28,7 @@ db.serialize(() => {
   )`);
 
   // Insert sample data
-  const sampleSQL = require('fs').readFileSync('./sampledata.sql', 'utf-8');
+  const sampleSQL = require('fs').readFileSync('./sampleData.sql', 'utf-8');
   db.exec(sampleSQL, (err) => {
     if (err) console.error("Failed to insert sample data:", err);
     else console.log("Sample data inserted!");

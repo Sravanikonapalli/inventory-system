@@ -35,7 +35,7 @@ export default function AddProductModal({ isOpen, onClose, onSaved, product }) {
         status: product.status || 'active',
         image: null,
       });
-      setPreview(product.image ? `http://localhost:4000${product.image}` : null);
+      setPreview(product.image ? `https://inventory-system-mxmq.onrender.com${product.image}` : null);
     } else {
       setForm({
         name: '',

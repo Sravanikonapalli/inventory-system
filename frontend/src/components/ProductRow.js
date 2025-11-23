@@ -42,7 +42,7 @@ export default function ProductRow({ product, onSaved, onViewHistory }) {
       <td>
         {product.image ? (
             <img
-            src={product.image.startsWith('http') ? product.image : `https://localhost:4000${product.image}`}
+            src={product.image.startsWith('http') ? product.image : `https://inventory-system-mxmq.onrender.com${product.image}`}
             alt={product.name}
             style={{ height: 30 }}
             />

@@ -1,0 +1,58 @@
+.history-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100vh;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  padding: 16px;
+  overflow-y: auto;
+  box-shadow: -2px 0 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.history-sidebar button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.history-sidebar button:hover {
+  background-color: #d32f2f;
+}
+
+.history-sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+.history-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.history-sidebar li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.history-sidebar li strong {
+  color: #555;
+}
+
+.history-sidebar li div {
+  margin-top: 2px;
+  color: #666;
+}

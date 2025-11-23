@@ -80,10 +80,9 @@ http://localhost:3000
 
 ### LIVE URLS
 
-Frontend: https://your-frontend-live-url.com
+Frontend: https://inventory-system-eight-pi.vercel.app/
 
 Backend: https://inventory-system-mxmq.onrender.com
-
 
 ### Usage
 
